@@ -1,4 +1,4 @@
-### Here is a step-by-step guide to deploy WordPress using an RDS:
+### Here is a step-by-step guide to deploy WordPress over AWS using an RDS:
 
 ### Set up an RDS instance:
 
