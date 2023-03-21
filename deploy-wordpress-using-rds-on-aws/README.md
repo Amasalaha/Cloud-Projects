@@ -43,7 +43,7 @@
 - Follow the WordPress installation prompts to create a new site.
 - Log in to your new WordPress site and configure any settings as needed.
 - That's it! You have now deployed WordPress using an RDS.
-
+ 
 ### Here are some useful resources that can provide more information on how to deploy WordPress on AWS using an RD instance:
 
 1. AWS documentation on deploying WordPress on AWS - https://aws.amazon.com/getting-started/hands-on/host-wordpress-deploy-scalable-mysql-on-aws/
