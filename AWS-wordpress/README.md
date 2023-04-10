@@ -1,12 +1,13 @@
-# AWS-Project
-I am going to introduce an AWS architecture of an application. This is a complete application that you will be building in a step-by-step manner. With every module you complete, you will be adding a new service or resource to your architecture,But before we start, let’s look at the prerequisites. 
+# AWS-Project 1
+I'm going to create a simple web application, such as a blog or a personal website, and deploy it on an Amazon Elastic Compute Cloud (EC2) instance. Configure security groups, IAM roles, and SSH access to the instance. This is a complete application that you will be building in a step-by-step manner. With every module you complete, you will be adding a new service or resource to your architecture,But before we start, let’s look at the prerequisites. 
+
 Prerequisites:
  
 1.	An AWS account with privileges to create IAM roles, AWS VPCs, EC2 instances, and RDS databases. 
 
-Problem:
+Lab 
 
-In this lab, you will create the VPC inside your AWS account. As you know, before you create VPC, you need to select a region by considering factors like cost, compliance, latency, etcetera. You will also need two subnets inside your VPC. A public subnet to host your web application. For that, you will launch an EC2 Instance. Also, a private subnet to deploy your RDS MySQL database. Then, you will set up the connection between RDS and EC2, then install the WordPress website on the instance. Finally, you will start hosting a simple WordPress website on an EC2 instance and export the static assets into the S3 bucket.
+In this lab, you will create the VPC inside your AWS account. As you know, before you create VPC, you need to select a region by considering factors like cost, compliance, latency, etc. You will also need two subnets inside your VPC. A public subnet to host your web application. For that, you will launch an EC2 Instance. Also, a private subnet to deploy your RDS MySQL database. Then, you will set up the connection between RDS and EC2, then install the WordPress website on the instance. Finally, you will start hosting a simple WordPress website on an EC2 instance and export the static assets into the S3 bucket.
 
  Architecture:
  
@@ -259,8 +260,5 @@ In setup page, enter your own value in the Site Title, Username, Password and Yo
 ![image](https://user-images.githubusercontent.com/63364609/225720368-646334a3-2ff1-4c95-93f5-cd24b97c7f04.png)
 
 
-Congratulations, you have successfully hosted a simple WordPress website on EC2 instance and configured all required AWS services. 
 
-In case you have any confusion, you can drop message here. 
 
-That’s all for this assignment. 
